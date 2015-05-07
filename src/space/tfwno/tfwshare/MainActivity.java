@@ -1,4 +1,4 @@
-package science.itaintrocket.pomfshare;
+package space.tfwno.tfwshare;
 
 import java.io.FileDescriptor;
 import java.io.FileNotFoundException;
@@ -27,7 +27,7 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 public class MainActivity extends Activity {
-	private final String imageurl = "http://a.pomf.se/";
+	private final String imageurl = "http://f.tfwno.space/";
 	private final String tag = "ayy lmao";
 	private String result;
 

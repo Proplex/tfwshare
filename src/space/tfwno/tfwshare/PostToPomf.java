@@ -1,4 +1,4 @@
-package science.itaintrocket.pomfshare;
+package space.tfwno.tfwshare;
 
 import java.io.DataOutputStream;
 import java.io.FileDescriptor;
@@ -14,7 +14,7 @@ import android.webkit.MimeTypeMap;
 
 
 public class PostToPomf extends AsyncTask<String, Integer, String>{
-	private final String pomfurl = "http://pomf.se/upload.php";
+	private final String pomfurl = "http://tfwno.space/upload.php";
 	private final String boundary = "*****";
 	private final int maxBufferSize = 1024*1024;
 	private final String tag = "ayy lmao";
